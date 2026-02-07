@@ -2,9 +2,15 @@
 
 ## A Getting-Started Guide to Writing Research Papers with Markdown, Git, and Claude
 
-You never need to type a Git command. Claude Code does it all for you — you just tell it what you want in plain English. This guide teaches the *concepts* so you understand what's happening, but Claude is your interface.
+*By *[*Yaniv Golan*](https://github.com/yaniv-golan)* — February 2026*
+
+You've named a file `paper_final_v3_REALLY_final.docx`. You've lost track of which version has the updated Figure 3. A co-author just emailed conflicting edits of the same section. Sound familiar?
+
+This guide shows you a better way — using **Git** for version control, **Markdown** for writing, and **Claude** as your plain-English interface. You never need to type a Git command. You just tell Claude what you want, and it handles the rest. This guide teaches the *concepts* so you understand what's happening.
 
 All you need is the [Claude Desktop app](https://claude.ai) (free, macOS or Windows) and a paid plan (Pro, Max, Team, or Enterprise) for access to Code and Cowork.
+
+**A note on timeliness**: AI tools evolve fast. The concepts in this guide (Git, Markdown, commits, diffs) are stable and timeless. The specific tool details (Claude's tabs, Cowork features, plan tiers) may change. This guide was written in February 2026 — if something looks different on your screen, check the [repo](https://github.com/yaniv-golan/git-for-scientists) for updates or [open an issue](https://github.com/yaniv-golan/git-for-scientists/issues) to let us know.
 
 ---
 
@@ -56,9 +62,7 @@ Done. You have version control and cloud backup. Read on to understand what just
 
 ### 1. The Problem You Already Have
 
-You've named a file `paper_final_v3_REALLY_final.docx`. We've all been there. That *is* version control — just done badly.
-
-Without proper version control, you can't get back to last week's draft. You don't know which version of your code produced Figure 3. Two co-authors email conflicting edits of the same section. Someone accidentally overwrites your changes in a shared Dropbox folder.
+That `paper_final_v3_REALLY_final.docx` on your desktop? That *is* version control — just done badly. And it breaks down fast: you can't get back to last week's draft, you don't know which version produced Figure 3, and someone just overwrote your changes in the shared Dropbox folder.
 
 Git solves all of this. It gives you:
 
@@ -116,7 +120,7 @@ The Claude Desktop app has three tabs, each suited to a different part of your r
 
 **The key distinction**: Cowork is the talented RA who drafts sections and crunches data. Code is the project manager who tracks every version, files the paperwork, and makes sure nothing is ever lost. Use Cowork to *produce*. Use Code to *manage*.
 
-Chat and Code are available on macOS and Windows. Cowork is currently a research preview, available on macOS only. Linux is not currently supported. Check [claude.com/pricing](https://claude.com/pricing) for the latest on plans and platform support. Pro, Max, Team, and Enterprise plans all include access. Cowork and Code use more of your usage allowance than Chat.
+Chat and Code are available on macOS and Windows. Cowork is currently a research preview, available on macOS only. Linux is not currently supported. Check [claude.com/pricing](https://claude.com/pricing) for the latest on plans and platform support. Pro, Max, Team, and Enterprise plans all include access. Cowork and Code use more of your usage allowance than Chat. (These details change frequently — the concepts in this guide stay the same even as the tools evolve.)
 
 **Also worth knowing about**: [Nimbalyst](https://nimbalyst.com) is a free app that wraps Claude Code in a more visual interface — rendered Markdown, inline diffs, session management. It requires a Claude Pro or Max subscription. If you find the Code tab too text-heavy, it's a nice alternative that works with the same Git workflow.
 
@@ -532,3 +536,9 @@ Steps to regenerate figures and analysis from code and data.
 ---
 
 **Start small.** Set up one project. Make one commit. The rest follows naturally.
+
+---
+
+*This guide is licensed under *[*CC-BY 4.0*](https://creativecommons.org/licenses/by/4.0/)*. You are free to share and adapt it with attribution.*
+*Source: *[*github.com/yaniv-golan/git-for-scientists*](https://github.com/yaniv-golan/git-for-scientists)
+*Found something outdated or have a suggestion? *[*Open an issue*](https://github.com/yaniv-golan/git-for-scientists/issues)* or *[*start a discussion*](https://github.com/yaniv-golan/git-for-scientists/discussions)* — help us keep this guide current.*
