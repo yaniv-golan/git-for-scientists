@@ -24,7 +24,7 @@ Researchers with zero Git or command-line experience who write papers and want t
 
 ## How to use it
 
-> ### 📖 **[Read the guide →](./guide.md)**
+> ### 📖 [guide.md](./guide.md)
 > Everything is in one file. Start here.
 
 ## Tools
