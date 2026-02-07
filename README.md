@@ -24,7 +24,7 @@ Researchers with zero Git or command-line experience who write papers and want t
 
 ## How to use it
 
-Read [guide.md](./guide.md). That's the whole thing.
+👉 [guide.md](./guide.md) — that's the whole thing.
 
 ## Tools
 
