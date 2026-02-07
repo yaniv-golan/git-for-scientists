@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use or reference this guide, please cite it as below."
+title: "Git for Scientists: A Getting-Started Guide"
+type: generic
+authors:
+  - family-names: Golan
+    given-names: Yaniv
+url: "https://github.com/yaniv-golan/git-for-scientists"
+repository-code: "https://github.com/yaniv-golan/git-for-scientists"
+license: CC-BY-4.0
+date-released: "2026-02-07"
+abstract: >-
+  A guide to writing research papers with Markdown, Git, and Claude —
+  no command line needed. Aimed at researchers with zero Git experience
+  who want version control, collaboration, and AI-assisted writing.
