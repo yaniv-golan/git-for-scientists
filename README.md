@@ -2,6 +2,8 @@
 
 A guide to writing research papers with Markdown, Git, and Claude — no command line needed.
 
+![Overview: Traditional workflow vs Git for Scientists](assets/infographics.png)
+
 ## What is this?
 
 A getting-started guide for researchers who want version control but refuse to use the terminal. You tell Claude what you want in plain English; it handles the Git commands for you.
@@ -22,7 +24,7 @@ Researchers with zero Git or command-line experience who write papers and want t
 
 ## How to use it
 
-Read [guide.md](guide.md). That's the whole thing.
+Read [guide.md](./guide.md). That's the whole thing.
 
 ## Tools
 
