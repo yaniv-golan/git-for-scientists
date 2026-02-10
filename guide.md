@@ -43,7 +43,7 @@ All you need is the [Claude Desktop app](https://claude.ai) (free, macOS or Wind
                               └─────────────────┘
 ```
 
-**You** work in the Claude Desktop app. The **Code tab** manages your project folder with Git. **GitHub** syncs everything to the cloud and your co-authors. That's the whole system.
+**You** work in the Claude Desktop app. The **Code tab** manages your project folder with Git. **GitHub** syncs everything to the cloud and your co-authors. The Claude Desktop app plus your project folder give you the full "undo" button and history on your own computer. GitHub is optional — add it when you need cloud backup or collaboration.
 
 **How your work moves**: You write → you **commit** (saved on your computer) → you **push** (backed up to GitHub). That's the whole flow. Pulling is the reverse — it downloads your co-authors' latest commits from GitHub to your computer.
 
@@ -52,9 +52,9 @@ All you need is the [Claude Desktop app](https://claude.ai) (free, macOS or Wind
 1. Open Claude Desktop → **Code** tab → **Select folder** (your paper folder)
 2. "Set up this folder as a Git project with a paper.md and README"
 3. Write something in paper.md → "Commit my changes — first draft"
-4. "Create a private GitHub repo and push everything"
+4. *(Optional)* "Create a private GitHub repo and push everything" — or skip this and keep working locally. You already have history and undo on your computer.
 
-Done. You have version control and cloud backup. Read on to understand what just happened and what else you can do.
+Done. You have version control. Read on to understand what just happened and what else you can do.
 
 ---
 
@@ -104,7 +104,9 @@ When you change a sentence in Markdown, Git shows you the old line and the new l
 
 ![Markdown vs Word: how Git sees your changes](assets/Fig1.png)
 
-You can write Markdown in any text editor. [Obsidian](https://obsidian.md) and [Typora](https://typora.io) are popular with researchers. Or you can write it directly inside Claude.
+You can write Markdown in any text editor. [Obsidian](https://obsidian.md) and [Typora](https://typora.io) are popular with researchers. Even the simplest option works — Notepad on Windows, or TextEdit on Mac (switch it to *Format → Make Plain Text* first). Or you can write directly inside Claude.
+
+**Do not use Microsoft Word to edit \****`.md`**\*\* files.** Word adds invisible formatting that breaks Git. If you double-click a `.md` file and it opens in Word, right-click the file instead and choose "Open with" one of the editors above.
 
 And when it's time to submit? Markdown converts to Word, PDF, HTML, or LaTeX with a single command (that Claude runs for you). More on that in Part VI.
 
@@ -145,7 +147,7 @@ If you use AI to help write your paper, Git isn't optional. It's how you stay in
 
 Open the Claude Desktop app. Click the **Code** tab. Click **Select folder** and choose (or create) the folder for your paper.
 
-Git needs to be installed on your computer. On Mac, it usually is already — if not, Claude will prompt you to install it (one click). On Windows, Claude will guide you through installing it if needed.
+Git needs to be installed on your computer. On Mac, it usually is already — if not, Claude will prompt you to install it (one click). On Windows, Claude will guide you through installing it if needed. Not sure? Just ask Claude: "Do I have git installed?" — it will check for you and tell you exactly what to do if not.
 
 You now have a session. Everything from here is a conversation.
 
@@ -171,6 +173,8 @@ Your folder is now a **repository** — a project tracked by Git. Every time you
 ### 6. Writing and Saving Your Work
 
 Write in `paper.md` using whatever text editor you like, or ask Claude to draft sections directly in the Code tab. When you've finished a meaningful chunk of work — a section, a round of edits, an updated figure — it's time to save a snapshot.
+
+**Important**: Claude can only see what's saved to your hard drive. If you're writing in a text editor, press **Save** (Ctrl+S on Windows, Cmd+S on Mac) before you ask Claude to commit. If you don't save the file first, Claude won't see your changes.
 
 > **You say:** "Commit my changes — I finished the first draft of the introduction"
 
@@ -449,6 +453,8 @@ When you're done, tag again:
 
 All of these work in the **Code** tab of the Claude Desktop app. No command line needed. These aren't commands to memorize — they're conversation starters. Rephrase however feels natural.
 
+### Level 1: Working Solo (no internet needed)
+
 | What you want | What to say to Claude |
 | --- | --- |
 | Start a new project | "Set up this folder as a Git project for a research paper" |
@@ -459,14 +465,19 @@ All of these work in the **Code** tab of the Claude Desktop app. No command line
 | Undo a change | "Undo the last change to paper.md" |
 | Undo a commit | "Revert the last commit" |
 | Try something risky | "Create a branch called try-new-approach" |
-| Share on GitHub | "Create a private GitHub repo and push this project" |
-| Get co-author changes | "Pull the latest from GitHub" |
-| Share your changes | "Push my commits to GitHub" |
 | Convert for submission | "Convert paper.md to Word with APA citations" |
 | Tag a milestone | "Tag this as submitted-v1" |
 | Review paragraph edits | "Show me which words changed, not just whole lines" |
-| Resolve a conflict | "Show me the conflict and help me pick the right version" |
 | I'm lost | "Show me the last three versions and help me pick one" |
+
+### Level 2: Backing Up and Collaborating (requires GitHub)
+
+| What you want | What to say to Claude |
+| --- | --- |
+| Share on GitHub | "Create a private GitHub repo and push this project" |
+| Get co-author changes | "Pull the latest from GitHub" |
+| Share your changes | "Push my commits to GitHub" |
+| Resolve a conflict | "Show me the conflict and help me pick the right version" |
 
 ---
 
