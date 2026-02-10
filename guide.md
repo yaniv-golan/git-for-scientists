@@ -149,6 +149,8 @@ Open the Claude Desktop app. Click the **Code** tab. Click **Select folder** and
 
 Git needs to be installed on your computer. On Mac, it usually is already — if not, Claude will prompt you to install it (one click). On Windows, Claude will guide you through installing it if needed. Not sure? Just ask Claude: "Do I have git installed?" — it will check for you and tell you exactly what to do if not.
 
+**If your computer shows a popup** asking to install "Command Line Developer Tools" — that's normal. It looks like a system alert, but it's just your computer installing Git. Click **Install** and wait a minute or two. You only need to do this once.
+
 You now have a session. Everything from here is a conversation.
 
 > **You say:** "Set up this folder as a Git project for a research paper. Create a paper.md, a references.bib file, and folders for figures, code, and data. Add a .gitignore and a README."
@@ -157,13 +159,13 @@ Claude creates the files, sets up the folder structure, and initializes Git — 
 
 ```
 my-paper/
-├── README.md
-├── paper.md
-├── references.bib
-├── figures/
-├── code/
-├── data/
-└── .gitignore
+├── README.md          ← Project description (shows on GitHub)
+├── paper.md           ← Your actual writing
+├── references.bib     ← Your bibliography
+├── figures/           ← Images and plots
+├── code/              ← Analysis scripts
+├── data/              ← Datasets
+└── .gitignore         ← Tells Git which files to ignore (temp files, big data)
 ```
 
 Review what Claude created in the diff view. Accept the changes.
@@ -307,6 +309,8 @@ The Desktop app's Code tab can also run parallel sessions, so you can try two ex
 ---
 
 ## Part V: Sharing and Collaborating with GitHub
+
+*Everything up to this point works entirely on your own computer. You don't need a GitHub account to have undo, history, and branches. This section is for when you want cloud backup or need to share with co-authors.*
 
 ### 13. Putting Your Paper on GitHub
 
